@@ -62,6 +62,42 @@ section{
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
 }
+table{
+           
+           border: 7px solid ;
+           
+          
+            border-image: linear-gradient(180deg,rgb(221, 108, 15),rgb(211, 32, 218));
+           border-image-slice: 1;
+           box-shadow: 10px 10px 20px gray;
+          
+         
+          border-width: 5px;
+          width: 800px;    
+          height: 75%;
+          border-spacing: 0;
+         
+          
+          }
+        
+        tr{
+
+            width: 200px;
+            height: 50px;
+            text-align: justify;
+            
+        }
+        
+        td,th{
+            
+            border: 2px solid yellowgreen;
+            padding-left: 20px;
+           
+            
+        }  
+        th{
+            background-color:rgb(236, 68, 124)
+        }
 footer {
     background-color: rgb(107, 103, 103);
     height: 50px;
